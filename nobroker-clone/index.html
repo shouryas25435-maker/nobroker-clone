@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Property Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="logo">MyProperty</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="listings.html">Listings</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Find your dream home — No brokers, no stress!</h2>
+      <div class="search-row">
+        <input id="searchInput" placeholder="Search city or locality" />
+        <button onclick="searchProperties()">Search</button>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h3>Featured Properties</h3>
+      <div id="propertyList" class="property-grid">
+        <div class="property-card">
+          <img src="images/38ae84d1-d557-4234-81a5-350bb5fe95d6.webp" alt="1BHK in Bengaluru" />
+          <h4>1BHK • Bengaluru</h4>
+          <p>₹15,000 / month</p>
+          <a href="listings.html" class="view-btn">View More</a>
+        </div>
+        <div class="property-card">
+          <img src="images/2621547f-e4b2-45f1-8697-867921d0987b.webp" alt="1BHK in Pune" />
+          <h4>1BHK • Pune</h4>
+          <p>₹18,000 / month</p>
+          <a href="listings.html" class="view-btn">View More</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    © 2025 MyProperty
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
